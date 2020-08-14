@@ -10,11 +10,13 @@ header{
     width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo-text{
     color: white;
     text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     margin-left: 35px;
 }
@@ -22,6 +24,7 @@ header{
 .nav-bar{
     display: flex;
     justify-content: center;
+    margin-right: 30px;
 }
 
 .nav-link{
@@ -42,7 +45,56 @@ h1{
     text-transform: uppercase;
     color: #dcd459;
     font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    width: 100vw;
+}
 
+.round-box{
+    background-color: #a4ffd7;
+    height: 75%;
+    width: 25%;
+    margin: 40px 20px;
+    border-radius: 10px;
+}
+
+.square-box{
+    background-color: #ffc36c;
+    height: 75%;
+    width: 42%;
+    margin-top: 10px;
+}
+
+.info-pic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+
+.info{
+   
+    max-height: 100%;
+    max-width: 30%;
+   
+}
+
+.elephant{
+    width: 25%;
+    height: 100%;
+}
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: #3a3a56;
+}
 
